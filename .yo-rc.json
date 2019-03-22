@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "onc",
+    "packageName": "com.corneliouzbett.onc",
+    "packageFolder": "com/corneliouzbett/onc",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "ZTY0M2E5ODNhYmJjNTUzMzA4ZWNkMmY3MTRmMGM3MjYzMWVkNDdkMjdmMzZjMGYyZjNjMjFlYjA0MGI3MzJlMDgzZGM5NDJiZDUzOTVmYTFlZDJlY2ZiMjZjNGU0YmE4MGI0MDEwYmQ4MDhjYjhmYjU4MTkwZmI4N2YwYzdiNDY=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "corneliouzbett",
+  "repository-name": "onc"
+}
